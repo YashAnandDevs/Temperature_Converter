@@ -1,0 +1,90 @@
+body{
+    background-color: hsl(266, 100%, 86%);
+    text-align:center;
+}
+#container{
+    background-color: hsl(274, 36%, 53%);
+    text-align:center;
+    display:inline-block;
+    padding:30px 60px;
+    border-radius:20px;
+    border:0;
+    margin-top:30px;
+    box-shadow:3px 3px 6px hsl(271, 55%, 45%);
+}
+#title{
+    background-color: hsl(271, 53%, 48%);
+    padding:10px 20px;
+    border-radius:20px;
+    color:hsl(272, 100%, 88%);
+    text-shadow:2px 2px 10px hsl(271, 100%, 73%);
+    font-weight:bold;
+    font-family:'Courier New', Courier, monospace;
+    box-shadow: 3px 9px 100px hsl(271, 91%, 65%);
+    font-size:2.5em;
+    border:7px double hsl(271, 100%, 67%);
+}
+#label{
+    font-size:1.5em;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:hsl(271, 91%, 91%);
+    font-weight:bold;
+    border:2px solid hsl(270, 97%, 88%);
+    padding:5px 10px;
+    border-radius: 10px;
+}
+#input{
+    border-radius:6px;
+    border:0;
+    background-color: hsl(270, 97%, 88%);
+    color:hsl(271, 100%, 18%);
+    font-size:1.3em;
+    font-family:'Courier New', Courier, monospace;
+    font-weight:bold;
+    transition:background-color 0.25s;
+    border:0;
+    margin-top:10px;
+    text-align: center;
+}
+#input:hover{
+    background-color: hsl(268, 91%, 78%);
+}
+.check{
+    background-color:hsl(270, 97%, 88%) ;
+    color:hsl(271, 100%, 18%);
+    margin-top:20px;
+}
+.change{
+    font-size:1.3em;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:bold;
+    color:hsl(271, 100%, 89%);
+}
+#submit{
+    background-color: hsl(270, 55%, 36%);
+    padding:10px 10px;
+    border:0;
+    border-radius:6px;
+    font-size:1.4em;
+    font-weight:bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:hsl(271, 100%, 89%);
+    transition: background-color 0.25s;
+    margin-top:20px;
+}
+#submit:hover{
+    background-color: hsl(270, 55%, 26%);
+}
+#submit:active{
+    background-color: hsl(270, 55%, 16%);
+}
+#result{
+    color:hsl(271, 100%, 89%);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:bold;
+    font-size:1.2em;
+    border:2px solid hsl(260, 100%, 85%);
+    padding:10px 10px;
+    display:inline-block;
+    border-radius:10px;
+}
